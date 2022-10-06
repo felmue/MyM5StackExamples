@@ -1,3 +1,6 @@
+// Copyright (c) 2022 by GWENDESIGN. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
 #include <M5Core2.h>
 
 void setup()
