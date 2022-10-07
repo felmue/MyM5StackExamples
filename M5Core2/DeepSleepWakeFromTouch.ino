@@ -12,6 +12,7 @@ void setup()
   Serial.flush();
   esp_deep_sleep_start();
   Serial.println("never reached");
+  // Never reached - after deep sleep ESP32 restarts
 }
 
 void loop()
