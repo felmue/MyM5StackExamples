@@ -127,25 +127,25 @@ void loop()
   if(M5.BtnA.wasPressed() == true)
   {
 //    uint8_t b[2] = {1};
-//    uart_frame_send(CmdList_t::kHmirror, b, 2, true);
+//    uart_frame_send(kHmirror, b, 2, true);
 //    uint8_t b[2] = {5};
-//    uart_frame_send(CmdList_t::kQuality, b, 2, true);
+//    uart_frame_send(kQuality, b, 2, true);
     uint8_t b[2] = {FRAMESIZE_QQVGA};
     uart_frame_send(kFrameSize, b, 2, true);
   }
   if(M5.BtnB.wasPressed() == true)
   {
 //    uint8_t b[2] = {0};
-//    uart_frame_send(CmdList_t::kHmirror, b, 2, true);
+//    uart_frame_send(kHmirror, b, 2, true);
 //    uint8_t b[2] = {30};
-//    uart_frame_send(CmdList_t::kQuality, b, 2, true);
+//    uart_frame_send(kQuality, b, 2, true);
     uint8_t b[2] = {FRAMESIZE_HQVGA};
     uart_frame_send(kFrameSize, b, 2, true);
   }
   if(M5.BtnC.wasPressed() == true)
   {
 //    uint8_t b[2] = {60};
-//    uart_frame_send(CmdList_t::kQuality, b, 2, true);
+//    uart_frame_send(kQuality, b, 2, true);
     uint8_t b[2] = {FRAMESIZE_QVGA};
     uart_frame_send(kFrameSize, b, 2, true);
   }
