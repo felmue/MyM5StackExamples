@@ -81,10 +81,7 @@ void setup()
   //   PB DONE
   //  to arrive _before_ the download is started
   //  else the download might end prematurely
-  for(int k = 0; k < 30; k++)
-  {
-    modem.testAT(1000);
-  }
+  modem.testAT(30000);
 
   String modemInfo = modem.getModemInfo();
   SerialMon.print("Modem Info: ");
