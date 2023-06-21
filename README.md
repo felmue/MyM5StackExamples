@@ -24,7 +24,7 @@ Some examples for M5Stack devices.
 
 ### M5Stack
 - **Cam2CoreExtended.ino** : receive data from TimerCam and display on LCD; use button A, B and C to change frame size
-- **OTAoverLTE** : firmware update over the air using an LTE modem
+- **OTAoverLTE.ino** : firmware update over the air using an LTE modem
 
 ### M5StampC3
 - **NonBlockingBlink.ino** : blink LED w/o using delays
@@ -36,5 +36,5 @@ Some examples for M5Stack devices.
 
 ### M5Tough
 - **LightSleepWakeFromTouch.ino** : put ESP32 into light sleep then wake when screen is touched
-- **RS485ModbusACSSR** : use RS485 port with Modbus protocol and toggle ACSSR relay on / off every 800 ms
+- **RS485ModbusACSSR.ino** : use RS485 port with Modbus protocol and toggle ACSSR relay on / off every 800 ms
 - **ThreeBottomButons.py** : three bottom button for M5Tough
