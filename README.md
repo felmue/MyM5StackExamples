@@ -15,7 +15,8 @@ Some examples for M5Stack devices.
 
 ### M5CoreS3
 - **CamToLCD.ino** : take picture from camera and show on LCD
-- **SDCard.ino** : init SD card
+- **SDCard.ino** : init SD card (Note: breaks LCD)
+- **SDCardAndLCD.ino** : SD card and LCD both work
 
 ### M5Paper
 - **GestureSensor.ino** : read gesture sensor and display result
