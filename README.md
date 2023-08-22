@@ -8,7 +8,7 @@ Some examples for M5Stack devices.
 - **DeepSleepWakeFromTouch.ino** : put ESP32 into deep sleep then wake when screen is touched
 - **LightSleepWakeFromTouch.ino** : put ESP32 into light sleep then wake when screen is touched
 - **IotBasePSM.py** : button A powers modem on; button B sends AT command; button C puts modem into power save mode
-- **SimleTone.py** : play a tone
+- **SimpleTone.py** : play a tone
 
 ### M5CoreInk
 - **CountDownThePowerOff.py** : count down from 10 then power off
@@ -39,4 +39,4 @@ Some examples for M5Stack devices.
 ### M5Tough
 - **LightSleepWakeFromTouch.ino** : put ESP32 into light sleep then wake when screen is touched
 - **RS485ModbusACSSR.ino** : use RS485 port with Modbus protocol and toggle ACSSR relay on / off every 800 ms
-- **ThreeBottomButons.py** : three bottom button for M5Tough
+- **ThreeBottomButtons.py** : three bottom button for M5Tough
