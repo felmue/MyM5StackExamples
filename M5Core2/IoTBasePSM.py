@@ -5,7 +5,6 @@ from m5stack import *
 from m5stack_ui import *
 from uiflow import *
 from easyIO import *
-from m5mqtt import M5mqtt
 import time
 
 screen = M5Screen()
@@ -108,24 +107,6 @@ def printLog(logentry):
   l_list5.set_text(str(list5))
   l_list6.set_text(str(list6))
   l_list7.set_text(str(list7))
-
-# Describe this function...
-def startMQTT():
-  global cmd, timeout, waitFor, logentry, btnAPressed, btnBPressed, btnCPressed, list1, list2, response, list3, list4, list5, list6, list7, uart1
-  m5mqtt = M5mqtt('m5stackTest1', 'mqtt.gwen.ch', 8883, 'mytestuser', 'mytestpw', 300, ssl = True)
-  m5mqtt.subscribe(str('update'), fun_update_)
-  m5mqtt.start()
-
-# Describe this function...
-def postMQTT():
-  global cmd, timeout, waitFor, logentry, btnAPressed, btnBPressed, btnCPressed, list1, list2, response, list3, list4, list5, list6, list7, uart1
-  m5mqtt.publish(str('update'), str('mytest1'), 0)
-
-
-def fun_update_(topic_data):
-  global btnAPressed, btnBPressed, btnCPressed, list1, timeout, list2, cmd, response, list3, list4, list5, list6, list7, logentry, waitFor, uart1
-  action.set_text('Hello M5')
-  pass
 
 def buttonA_wasPressed():
   global btnAPressed, btnBPressed, btnCPressed, list1, timeout, list2, cmd, response, list3, list4, list5, list6, list7, logentry, waitFor, uart1
