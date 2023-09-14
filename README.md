@@ -17,6 +17,7 @@ Some examples for M5Stack devices.
 - **CamToLCD.ino** : take picture from camera and show on LCD
 - **SDCard.ino** : init SD card (Note: breaks LCD)
 - **SDCardAndLCD.ino** : SD card and LCD both work
+- **TouchRandomCircle.ino** : Touch to draw random colored circle
 
 ### M5Paper
 - **GestureSensor.ino** : read gesture sensor and display result
