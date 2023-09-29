@@ -28,7 +28,7 @@ void setup()
   }
   else
   {
-    canvas.drawString("Power on power button", 0, 0);
+    canvas.drawString("Power on by power button", 0, 0);
     canvas.pushCanvas(0, 0, UPDATE_MODE_DU4);
     // Small delay to allow paper display to update
     delay(250);
