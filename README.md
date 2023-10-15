@@ -4,6 +4,9 @@ Some examples for M5Stack devices.
 ### M5Atom
 - **atom_dtu_nb_iot.py** : send AT command and wait for response
 
+### M5AtomS3
+- **DeepSleepTest.ino** : Deep sleep test to measure current
+
 ### M5Core2
 - **DeepSleepWakeFromTouch.ino** : put ESP32 into deep sleep then wake when screen is touched
 - **LightSleepWakeFromTouch.ino** : put ESP32 into light sleep then wake when screen is touched
