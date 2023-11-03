@@ -25,6 +25,9 @@ Some examples for M5Stack devices.
 ### M5Dial
 - **GC9A01_demo.ino** : TFT demo
 
+### M5LANBase
+- **LinkTest.ino** : LAN Base link test for M5Core, M5Core2, M5Tough and M5CoreS3
+
 ### M5Paper
 - **GestureSensor.ino** : read gesture sensor and display result
 - **I2CScanInternalAndAllPorts.ino** : i2c scan (internal and port A, B und C).
