@@ -1,6 +1,9 @@
 # Copyright (c) 2022 by GWENDESIGN. All rights reserved.
 # Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
+# Note: LVGL Micropython firmware (not UIFlow) is required for this example to run.
+# https://github.com/lvgl/lv_micropython/tree/master/ports/esp32/boards/M5CORE2
+
 import lvgl as lv
 
 def btnl_event_cb(ev):
