@@ -21,6 +21,7 @@ Some examples for M5Stack devices.
 - **SDCard.ino** : init SD card (Note: breaks LCD)
 - **SDCardAndLCD.ino** : SD card and LCD both work
 - **TouchRandomCircle.ino** : Touch to draw random colored circle
+- **TouchButtonABC.py*** : Button A, B and C at the bottom
 
 ### M5Dial
 - **GC9A01_demo.ino** : TFT demo
