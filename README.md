@@ -17,6 +17,7 @@ Some examples for M5Stack devices.
 - **CountDownThePowerOff.py** : count down from 10 then power off
 
 ### M5CoreS3
+- **COMLTETest.ino** : COM.LTE module - send AT command and read response
 - **CamToLCD.ino** : take picture from camera and show on LCD
 - **SDCard.ino** : init SD card (Note: breaks LCD)
 - **SDCardAndLCD.ino** : SD card and LCD both work
