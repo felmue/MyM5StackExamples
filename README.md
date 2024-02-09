@@ -26,6 +26,7 @@ Some examples for M5Stack devices.
 
 ### M5Dial
 - **GC9A01_demo.ino** : TFT demo
+- **SleepTest.ino*** : Light/Deep sleep test - wakeup via touch screen or knob button
 
 ### M5LANBase
 - **LinkTest.ino** : LAN Base link test for M5Core, M5Core2, M5Tough and M5CoreS3
