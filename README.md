@@ -36,6 +36,7 @@ Some examples for M5Stack devices.
 - **I2CScanInternalAndAllPorts.ino** : i2c scan (internal and port A, B und C).
 - **NonFlickeringUpdateAfterShutdown.ino** : display non flickering count after waking up from shutdown
 - **ShutdownWakeAfterHours.ino** : Shutdown (after being turned on by power button) and wake up after 7 hours by RTC
+- **SleepTest** : ESP32 light / deep sleep test with timer and touch screen wakeup
 - **Lightsleep.py** : put ESP32 into light sleep for 60 seconds
 
 ### M5Stack
