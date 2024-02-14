@@ -23,7 +23,7 @@ Some examples for M5Stack devices.
 - **[SDCard.ino](./M5CoreS3/SDCard/SDCard.ino)** : init SD card (Note: breaks LCD)
 - **[SDCardAndLCD.ino](./M5CoreS3/SDCardAndLCD/SDCardAndLCD.ino)** : SD card and LCD both work
 - **[TouchRandomCircle.ino](./M5CoreS3/TouchRandomCircle/TouchRandomCircle.ino)** : Touch to draw random colored circle
-- **[TouchButtonABC.py](./M5CoreS3/TouchButtonABC.py)*** : Button A, B and C at the bottom
+- **[TouchButtonABC.py](./M5CoreS3/TouchButtonABC.py)** : Button A, B and C at the bottom
 
 ### M5Dial
 - **[GC9A01_demo.ino](./M5Dial/GC9A01_demo/GC9A01_demo.ino)** : TFT demo
