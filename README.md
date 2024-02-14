@@ -2,6 +2,7 @@
 Some examples for M5Stack devices.
 
 ### M5Atom
+- **EnvIVTest** : read temperature, humidity and pressure from EnvIV unit
 - **atom_dtu_nb_iot.py** : send AT command and wait for response
 
 ### M5AtomS3
