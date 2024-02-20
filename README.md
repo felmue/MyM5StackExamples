@@ -27,6 +27,7 @@ Some examples for M5Stack devices.
 
 ### M5Dial
 - **[GC9A01_demo.ino](./M5Dial/GC9A01_demo/GC9A01_demo.ino)** : TFT demo
+- **[I2CScanIntExt.ino](./M5Dial/I2CScanIntExt/I2CScanIntExt.ino)** : Scan I2C - internal and external (red port A)
 - **[SleepTest.ino](./M5Dial/SleepTest/SleepTest.ino)** : Light/Deep sleep test - wakeup via touch screen or knob button
 
 ### M5LANBase
