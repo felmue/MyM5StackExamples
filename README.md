@@ -16,6 +16,7 @@ Some examples for M5Stack devices.
 
 ### M5CoreInk
 - **[CountDownThenPowerOff.py](./M5CoreInk/CountDownThenPowerOff.py)** : count down from 10 then power off
+- **[RTC_Clock.ino](./M5CoreInk/RTC_Clock/RTC_Clock.ino)** : low power clock with non-flickering ink display update
 
 ### M5CoreS3
 - **[COMLTETest.ino](./M5CoreS3/COMLTETest/COMLTETest.ino)** : COM.LTE module - send AT command and read response
