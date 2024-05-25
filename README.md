@@ -2,6 +2,7 @@
 Some examples for M5Stack devices.
 
 ### M5Atom
+- **[AtomicGPSTest.ino](./M5Atom/AtomicGPSTest/AtomicGPSTest.ino)** : get GPS data from Atomic GPS kit
 - **[EnvIVTest.ino](./M5Atom/EnvIVTest/EnvIVTest.ino)** : read temperature, humidity and pressure from EnvIV unit
 - **[atom_dtu_nb_iot.py](./M5Atom/atom_dtu_nb_iot.py)** : send AT command and wait for response
 
