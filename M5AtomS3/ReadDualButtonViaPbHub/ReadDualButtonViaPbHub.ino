@@ -1,6 +1,12 @@
 // Copyright (c) 2024 by GWENDESIGN. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 //
+// https://github.com/m5stack/M5AtomS3
+// https://github.com/m5stack/M5Unified
+// https://github.com/m5stack/M5GFX
+// https://github.com/m5stack/M5Unit-PbHub
+// https://github.com/FastLED/FastLED
+//
 // You need: M5AtomS3, ATOMIC ABC, PbHub unit v1.1, Dual Button unit
 // Place M5AtomS3 onto ATOMIC ABC, connect PbHub to red port, connect Dual Button unit to channel 2
 
