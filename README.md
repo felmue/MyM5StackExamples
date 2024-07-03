@@ -8,6 +8,7 @@ Some examples for M5Stack devices.
 
 ### M5AtomS3
 - **[DeepSleepTest.ino](./M5AtomS3/DeepSleepTest/DeepSleepTest.ino)** : Deep sleep test to measure current
+- **[ReadDualButtonViaPbHub.ino](./M5AtomS3/ReadDualButtonViaPbHub/ReadDualButtonViaPbHub.ino)** : Read Dual Button states via PbHub unit
 
 ### M5Core2
 - **[DeepSleepWakeFromTouch.ino](./M5Core2/DeepSleepWakeFromTouch/DeepSleepWakeFromTouch.ino)** : put ESP32 into deep sleep then wake when screen is touched
