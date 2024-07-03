@@ -1,4 +1,4 @@
-// Copyright (c) 2023 by GWENDESIGN. All rights reserved.
+// Copyright (c) 2024 by GWENDESIGN. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 // M5AtomS3 powered via Groove port: 5 V
