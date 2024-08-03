@@ -16,6 +16,9 @@ Some examples for M5Stack devices.
 - **[IoTBasePSM.py](./M5Core2/IoTBasePSM.py)** : button A powers modem on; button B sends AT command; button C puts modem into power save mode
 - **[SimpleTone.py](./M5Core2/SimpleTone.py)** : play a tone
 
+### M5Core2v1.1
+- **[BlueLEDTest.ino](./M5Core2v1.1/BlueLEDTest/BlueLEDTest.ino)** : blink blue LED
+
 ### M5CoreInk
 - **[CountDownThenPowerOff.py](./M5CoreInk/CountDownThenPowerOff.py)** : count down from 10 then power off
 - **[RTC_Clock.ino](./M5CoreInk/RTC_Clock/RTC_Clock.ino)** : low power clock with non-flickering ink display update
