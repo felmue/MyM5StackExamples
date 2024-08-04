@@ -11,9 +11,10 @@
 
 #define AXP2101_ADDR 0x34
 #define CHG_LED_CFG  0x69
-#define CHG_LED_MAN  0b00000101 // Manual mode
-#define CHG_LED_ON   0b00110000
-#define CHG_LED_OFF  0b00000000
+#define CHG_LED_EN   0b00000001 // Enable
+#define CHG_LED_MAN  0b00000100 // Manual mode
+#define CHG_LED_ON   0b00110000 // Drive low
+#define CHG_LED_OFF  0b00000000 // HiZ
 
 void setup()
 {
@@ -23,8 +24,8 @@ void setup()
 
 void loop()
 {
-  M5.In_I2C.writeRegister8(AXP2101_ADDR, CHG_LED_CFG, CHG_LED_MAN | CHG_LED_ON, 200000);
+  M5.In_I2C.writeRegister8(AXP2101_ADDR, CHG_LED_CFG, CHG_LED_EN | CHG_LED_MAN | CHG_LED_ON, 200000);
   delay(50);
-  M5.In_I2C.writeRegister8(AXP2101_ADDR, CHG_LED_CFG, CHG_LED_MAN | CHG_LED_OFF, 200000);
+  M5.In_I2C.writeRegister8(AXP2101_ADDR, CHG_LED_CFG, CHG_LED_EN | CHG_LED_MAN | CHG_LED_OFF, 200000);
   delay(2000);
 }
