@@ -26,6 +26,7 @@ Some examples for M5Stack devices.
 ### M5CoreS3
 - **[COMLTETest.ino](./M5CoreS3/COMLTETest/COMLTETest.ino)** : COM.LTE module - send AT command and read response
 - **[CamToLCD.ino](./M5CoreS3/CamToLCD/CamToLCD.ino)** : take picture from camera and show on LCD
+- **[CameraWebServer](./M5CoreS3/CameraWebServer)** : Espressif CameraWebServer example adapted to M5CoreS3
 - **[SDCard.ino](./M5CoreS3/SDCard/SDCard.ino)** : init SD card (Note: breaks LCD)
 - **[SDCardAndLCD.ino](./M5CoreS3/SDCardAndLCD/SDCardAndLCD.ino)** : SD card and LCD both work
 - **[TouchRandomCircle.ino](./M5CoreS3/TouchRandomCircle/TouchRandomCircle.ino)** : Touch to draw random colored circle
