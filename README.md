@@ -60,6 +60,9 @@ Some examples for M5Stack devices.
 - **[LEDTest.ino](./M5Station/LEDTest/LEDTest.ino)** : change LED color every half second
 - **[RS485ModbusACSSR.ino](./M5Station/RS485ModbusACSSR/RS485ModbusACSSR.ino)** : use RS485 port with Modbus protocol; button A turns relay on; button B reads the firmware of the relay; button C turns the relay off
 
+### M5StickCPlus2
+- **[I2CScanInternalGrooveHat.ino](./M5StickCPlus2/I2CScanInternalGrooveHat/I2CScanInternalGrooveHat.ino)** : I2C scan (internal, Groove, Hat)
+
 ### M5Tough
 - **[LightSleepWakeFromTouch.ino](./M5Tough/LightSleepWakeFromTouch/LightSleepWakeFromTouch.ino)** : put ESP32 into light sleep then wake when screen is touched
 - **[RS485ModbusACSSR.ino](./M5Tough/RS485ModbusACSSR/RS485ModbusACSSR.ino)** : use RS485 port with Modbus protocol and toggle ACSSR relay on / off every 800 ms
