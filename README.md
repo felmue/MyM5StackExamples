@@ -26,6 +26,7 @@ Some examples for M5Stack devices.
 ### M5CoreS3
 - **[COMLTETest.ino](./M5CoreS3/COMLTETest/COMLTETest.ino)** : COM.LTE module - send AT command and read response
 - **[CamWebServer](./M5CoreS3/CamWebServer)** : adapted CameraWebServer version for M5CoreS3
+- **[I2CScanInternalGroove.ino](./M5CoreS3/I2CScanInternalGroove/I2CScanInternalGroove.ino)** : I2C scan internal and Port A (red)
 - **[SDCard.ino](./M5CoreS3/SDCard/SDCard.ino)** : init SD card (Note: breaks LCD)
 - **[SDCardAndLCD.ino](./M5CoreS3/SDCardAndLCD/SDCardAndLCD.ino)** : SD card and LCD both work
 - **[TouchRandomCircle.ino](./M5CoreS3/TouchRandomCircle/TouchRandomCircle.ino)** : Touch to draw random colored circle
