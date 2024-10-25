@@ -35,6 +35,7 @@ Some examples for M5Stack devices.
 ### M5Dial
 - **[GC9A01_demo.ino](./M5Dial/GC9A01_demo/GC9A01_demo.ino)** : TFT demo
 - **[I2CScanIntExt.ino](./M5Dial/I2CScanIntExt/I2CScanIntExt.ino)** : Scan I2C - internal and external (red port A)
+- **[RS485ModbusACSSR.ino](./M5Dial/RS485ModbusACSSR/RS485ModbusACSSR.ino)** : use RS485 unit on port B with Modbus protocol. Click button to toggle ACSSR relay on / off
 - **[ShutdownTest.ino](./M5Dial/ShutdownTest/ShutdownTest.ino)** : Shutdown test - power on via knob button or RTC timer
 - **[SleepTest.ino](./M5Dial/SleepTest/SleepTest.ino)** : Light/Deep sleep test - wakeup via touch screen or knob button
 
