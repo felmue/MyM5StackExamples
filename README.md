@@ -64,6 +64,7 @@ Some examples for M5Stack devices.
 
 ### M5StickCPlus2
 - **[I2CScanInternalGrooveHat.ino](./M5StickCPlus2/I2CScanInternalGrooveHat/I2CScanInternalGrooveHat.ino)** : I2C scan (internal, Groove, Hat)
+- **[SleepAndPowerOffTest.ino](./M5StickCPlus2/SleepAndPowerOffTest/SleepAndPowerOffTest.ino)** : Shows how to put ESP32 into deep sleep and wakeup from button A. It also shows how to power off device and restart from power button.
 
 ### M5Tough
 - **[LightSleepWakeFromTouch.ino](./M5Tough/LightSleepWakeFromTouch/LightSleepWakeFromTouch.ino)** : put ESP32 into light sleep then wake when screen is touched
