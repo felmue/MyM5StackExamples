@@ -4,8 +4,8 @@
 // https://github.com/m5stack/M5Dial
 // https://github.com/m5stack/M5GFX
 // https://github.com/m5stack/M5Unified
-// https://github.com/arduino-libraries/ArduinoModbus
-// https://github.com/arduino-libraries/ArduinoRS485
+// https://github.com/m5stack/ArduinoModbus
+// https://github.com/m5stack/ArduinoRS485
 
 #include "M5Dial.h"
 #include <ArduinoModbus.h>
