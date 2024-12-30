@@ -11,6 +11,7 @@ Some examples for M5Stack devices.
 - **[ReadDualButtonViaPbHub.ino](./M5AtomS3/ReadDualButtonViaPbHub/ReadDualButtonViaPbHub.ino)** : Read Dual Button states via PbHub unit
 
 ### M5Core2
+- **[BatteryMonitor.ino](./M5Core2/BatteryMonitor/BatteryMonitor.ino)** : show battery charging current, level, voltage and whether the battery is being charged or not 
 - **[DeepSleepWakeFromTouch.ino](./M5Core2/DeepSleepWakeFromTouch/DeepSleepWakeFromTouch.ino)** : put ESP32 into deep sleep then wake when screen is touched
 - **[LightSleepWakeFromTouch.ino](./M5Core2/LightSleepWakeFromTouch/LightSleepWakeFromTouch.ino)** : put ESP32 into light sleep then wake when screen is touched
 - **[IoTBasePSM.py](./M5Core2/IoTBasePSM.py)** : button A powers modem on; button B sends AT command; button C puts modem into power save mode
