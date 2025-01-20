@@ -51,6 +51,9 @@ Some examples for M5Stack devices.
 - **[SleepTest.ino](./M5Paper/SleepTest/SleepTest.ino)** : ESP32 light / deep sleep test with timer and touch screen wakeup
 - **[Lightsleep.py](./M5Paper/Lightsleep.py)** : put ESP32 into light sleep for 60 seconds
 
+### M5PaperS3
+- **[RTCClockNonFlickering.ino](./M5PaperS3/RTCClockNonFlickering/RTCClockNonFlickering.ino)** : low power clock with non flickering eInk display
+
 ### M5Stack
 - **[Cam2CoreExtended.ino](./M5Stack/Cam2CoreExtended/Cam2CoreExtended.ino)** : receive data from TimerCam and display on LCD; use button A, B and C to change frame size
 - **[OTAoverLTE.ino](./M5Stack/OTAoverLTE/OTAoverLTE.ino)** : firmware update over the air using an LTE modem
