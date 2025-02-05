@@ -1,4 +1,4 @@
-// Copyright (c) 2024 by GWENDESIGN. All rights reserved.
+// Copyright (c) 2025 by GWENDESIGN. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 //
 // https://github.com/m5stack/M5Unified
