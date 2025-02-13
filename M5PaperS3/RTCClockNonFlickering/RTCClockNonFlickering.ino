@@ -1,12 +1,6 @@
 // Copyright (c) 2025 by GWENDESIGN. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-// Note: requires the following PRs so M5PaperS3 can power up without the eInk display flickering
-// - https://github.com/m5stack/M5GFX/pull/113
-// - https://github.com/m5stack/M5Unified/pull/144
-// Note: requires the folowing PR so M5PaperS3 can fully shutdown
-// - https://github.com/m5stack/M5Unified/pull/141
-
 // This RTC clock example keeps the system mostly in shutdown mode and
 //  only wakes up every 58 seconds for a brief period of time during
 //  which the time and date are updated on the eInk display.
@@ -162,7 +156,7 @@ void setup(void)
     if(time.minutes == FULL_REFRESH_MINUTE - 1)
     {
       // Full ink display init
-      M5.Display.getPanel()->clearDisplay();
+      M5.Display.clearDisplay();
     }
   }
   else
@@ -170,7 +164,7 @@ void setup(void)
     Serial.println("Power on by: power button");
 
     // Full ink display init
-    M5.Display.getPanel()->clearDisplay();
+    M5.Display.clearDisplay();
 
     // Fetch current time from Internet
     getNTPTime();
