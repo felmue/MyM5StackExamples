@@ -11,6 +11,9 @@ Some examples for M5Stack devices.
 - **[DeepSleepTest.ino](./M5AtomS3/DeepSleepTest/DeepSleepTest.ino)** : Deep sleep test to measure current
 - **[ReadDualButtonViaPbHub.ino](./M5AtomS3/ReadDualButtonViaPbHub/ReadDualButtonViaPbHub.ino)** : Read Dual Button states via PbHub unit
 
+### M5Cardputer
+- **[Unit4RelayDemo.ino](./M5Cardputer/Unit4RelayDemo/Unit4RelayDemo.ino)** : turn relay on / off over i2C every second
+
 ### M5Core2
 - **[BatteryMonitor.ino](./M5Core2/BatteryMonitor/BatteryMonitor.ino)** : show battery charging current, level, voltage and whether the battery is being charged or not 
 - **[DeepSleepWakeFromTouch.ino](./M5Core2/DeepSleepWakeFromTouch/DeepSleepWakeFromTouch.ino)** : put ESP32 into deep sleep then wake when screen is touched
