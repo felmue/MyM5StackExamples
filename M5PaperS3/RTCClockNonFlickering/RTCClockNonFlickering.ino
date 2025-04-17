@@ -160,12 +160,6 @@ void setup(void)
 
   M5.Power.setLed(127);
 
-  if (M5.Display.isEPD())
-  {
-    M5.Display.setEpdMode(epd_mode_t::epd_fastest);
-  }
-  M5.Display.setRotation(M5.Display.getRotation() ^ 1);
-
   m5::rtc_time_t time;
   m5::rtc_date_t date;
 
@@ -195,6 +189,12 @@ void setup(void)
     M5.Rtc.getTime(&time);
     M5.Rtc.getDate(&date);
   }
+
+  if (M5.Display.isEPD())
+  {
+    M5.Display.setEpdMode(epd_mode_t::epd_fastest);
+  }
+  M5.Display.setRotation(M5.Display.getRotation() ^ 1);
 
   drawBatteryVoltage();
 
