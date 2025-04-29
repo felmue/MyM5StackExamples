@@ -18,7 +18,7 @@
 // Every hour a full eInk display refresh is executed to keep the ink
 //  display crisp.
 
-#include <epdiy.h>
+//#include <epdiy.h>
 #include <M5Unified.h>
 #include <M5GFX.h>
 #include <WiFi.h>
@@ -196,7 +196,7 @@ void setup(void)
   }
   M5.Display.setRotation(M5.Display.getRotation() ^ 1);
 
-  drawBatteryVoltage();
+//  drawBatteryVoltage();
 
   // After every shutdown the eInk buffer is initialized anew.
   // But the eInk buffer doesn't match the current image on the
