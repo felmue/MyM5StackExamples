@@ -76,7 +76,7 @@ void getNTPTime()
     // WiFi connection failed - set fantasy time and date
     m5::rtc_time_t time;
     time.hours = 6;
-    time.minutes = 43;
+    time.minutes = 10;
     time.seconds = 50;
     M5.Rtc.setTime(&time);
 
