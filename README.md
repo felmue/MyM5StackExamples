@@ -64,6 +64,9 @@ Some examples for M5Stack devices.
 - **[Cam2CoreExtended.ino](./M5Stack/Cam2CoreExtended/Cam2CoreExtended.ino)** : receive data from TimerCam and display on LCD; use button A, B and C to change frame size
 - **[OTAoverLTE.ino](./M5Stack/OTAoverLTE/OTAoverLTE.ino)** : firmware update over the air using an LTE modem
 
+### M5StamPLC
+- **[PbHubOnPortA.ino](./M5StamPLC/PbHubOnPortA/PbHubOnPortA.ino)** : showcase unit PbHub connected to port A
+
 ### M5StampC3
 - **[NonBlockingBlink.ino](./M5StampC3/NonBlockingBlink/NonBlockingBlink.ino)** : blink LED w/o using delays
 - **[Unit4RelayDemo.ino](./M5StampC3/Unit4RelayDemo/Unit4RelayDemo.ino)** : turn relay on / off over i2C every second
