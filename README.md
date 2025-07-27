@@ -79,6 +79,9 @@ Some examples for M5Stack devices.
 - **[I2CScanInternalGrooveHat.ino](./M5StickCPlus2/I2CScanInternalGrooveHat/I2CScanInternalGrooveHat.ino)** : I2C scan (internal, Groove, Hat)
 - **[SleepAndPowerOffTest.ino](./M5StickCPlus2/SleepAndPowerOffTest/SleepAndPowerOffTest.ino)** : Shows how to put ESP32 into deep sleep and wakeup from button A. It also shows how to power off device and restart from power button.
 
+### M5Tab5
+- **[EthernetModuleBaseTest.ino](./M5Tab5/EthernetModuleBaseTest/EthernetModuleBaseTest.ino)** : Module 13.2 LAN and/or Base LAN stacked to M5Tab5
+
 ### M5Tough
 - **[LightSleepWakeFromTouch.ino](./M5Tough/LightSleepWakeFromTouch/LightSleepWakeFromTouch.ino)** : put ESP32 into light sleep then wake when screen is touched
 - **[RS485ModbusACSSR.ino](./M5Tough/RS485ModbusACSSR/RS485ModbusACSSR.ino)** : use RS485 port with Modbus protocol and toggle ACSSR relay on / off every 800 ms
