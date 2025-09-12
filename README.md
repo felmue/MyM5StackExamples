@@ -59,6 +59,7 @@ Some examples for M5Stack devices.
 ### M5PaperS3
 - **[RTCClockNonFlickering.ino](./M5PaperS3/RTCClockNonFlickering/RTCClockNonFlickering.ino)** : low power clock with non flickering eInk display
 - **[LightSleepTouchWakeup.ino](./M5PaperS3/LightSleepTouchWakeup/LightSleepTouchWakeup.ino)** : light sleep with touch wakeup example
+- **[TouchButtonABC.py](./M5PaperS3/TouchButtonABC.py)** : Button A, B and C at the bottom
 
 ### M5Stack
 - **[Cam2CoreExtended.ino](./M5Stack/Cam2CoreExtended/Cam2CoreExtended.ino)** : receive data from TimerCam and display on LCD; use button A, B and C to change frame size
