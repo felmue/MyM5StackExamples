@@ -81,6 +81,9 @@ Some examples for M5Stack devices.
 - **[I2CScanInternalGrooveHat.ino](./M5StickCPlus2/I2CScanInternalGrooveHat/I2CScanInternalGrooveHat.ino)** : I2C scan (internal, Groove, Hat)
 - **[SleepAndPowerOffTest.ino](./M5StickCPlus2/SleepAndPowerOffTest/SleepAndPowerOffTest.ino)** : Shows how to put ESP32 into deep sleep and wakeup from button A. It also shows how to power off device and restart from power button.
 
+### M5StickS3
+- **[Button.ino](./M5StickS3/Button/Button.ino)** : M5Unified button example adapted for M5StickS3
+
 ### M5Tab5
 - **[EthernetModuleBaseTest.ino](./M5Tab5/EthernetModuleBaseTest/EthernetModuleBaseTest.ino)** : Module 13.2 LAN and/or Base LAN stacked to M5Tab5
 
